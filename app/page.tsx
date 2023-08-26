@@ -2,7 +2,7 @@
 import * as React from "react";
 import "./globals.css";
 
-export function formatDecimal(
+function formatDecimal(
   value: number,
   cultureCode: string,
   maxFractionDigits: number = 0,
